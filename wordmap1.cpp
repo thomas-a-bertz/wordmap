@@ -14,7 +14,7 @@ using namespace std;
 void abortWithUsage(char* programName)
 {
         printf("usage: %s -b BASIC_WORDS_FILE -t TEST_FILE\n\n", programName);
-        abort();
+	exit(1);
 }
 
 
